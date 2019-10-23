@@ -9,8 +9,9 @@
 		main{
 			height: 50vw;
 		}
+	
 		#moveme{
-			z-index: 4;
+			z-index: 1;
 		}
 		#land{
 			position:absolute;
@@ -21,13 +22,18 @@
 		#building{
 			position:absolute;
       bottom: 10px;
-      left: 10px;
+      left: 20vw;
+
+
       z-index: 2;
   }
 
       #building:hover{
-			
-      	content: url("./firework.png");
+	z-index: 1;
+		left:  -2vw;
+		bottom: -9vw;
+      	content: url("./firework2.png");
+      	margin-bottom:  -20vw;
       }
 	</style>
 </head>
